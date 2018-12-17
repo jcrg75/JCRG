@@ -1,0 +1,43 @@
+h1 {
+	text-align:center;
+	color:blue;
+}
+
+h2 {
+	text-align:center;
+	color:crimson;
+	font-style: italic;
+}
+
+h3 {
+	text-align:left;
+	color:violet;
+	font-style: italic;
+}
+
+
+	
+	
+.centrado {
+	border: 6px solid black;
+	 margin-top: 10px auto;
+  margin-bottom: 100px auto;
+  margin-right: 150px auto;
+  margin-left: 10px ;
+}
+
+.izq {
+	  border: 6px solid orange;
+  margin-top: 10px auto;
+  margin-bottom: 100px auto;
+  margin-right: 10px ;
+  margin-left: 25% ;
+}
+
+.der {
+	  border: 6px solid orange;
+  margin-top: 10px auto;
+  margin-bottom: 100px auto;
+  margin-right: 300px auto;
+  margin-left: 60px auto;
+}
