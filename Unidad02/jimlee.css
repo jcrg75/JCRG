@@ -1,43 +1,264 @@
-h1 {
+
+body {background: url(images/2.png) repeat top left;}
+
+/* estilos para espaciados */
+
+
+.espaciado {
+		margin-bottom: 30px;
+}
+
+.espaciado2 {
+		margin-bottom: 10px;
+		margin-left: 30px;
+}
+
+
+
+/* estilos para headers */
+
+	h1.intro {
+    color: DarkSlateGray;
+	text-align:center;
+	font-family:sans-serif;
+	margin-top: 40px;
+ }
+
+h1.main {
 	text-align:center;
 	color:blue;
 }
 
 h2 {
 	text-align:center;
-	color:crimson;
+	color:darkred;
 	font-style: italic;
 }
 
-h3 {
+
+
+h3.indice {
+  border-radius: 15px;
+  border: 2px solid DarkSlateGray;
+  background: #FFD700;
+  background-repeat: repeat;
+  padding-top:10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  width: 95%;
+  height: 15px;
+  margin-left: 30px;
+  color:DarkSlateGray;
+  font-family: Courier, monospace;
+ }
+
+
+h4.inicio {
+	color:olive ;
+	font-family:sans-serif;
+	font-style:italic;
 	text-align:left;
-	color:violet;
-	font-style: italic;
+}
+
+
+h4.lista {
+	color:LightSlateGray ;
+	font-family:"Times New Roman";
+	font-style:italic;
+	margin-left: 30px;
+}
+
+h4.normal {
+	color:navy ;
+	font-family:"Times New Roman";
+	margin-left: 30px;
+}
+
+
+
+/* estilos para enlaces y pseudo-clases */
+
+.nav {
+	color:DarkSlateGray;
+	font-family:sans-serif;
+	font-style:italic;
+	text-align:center;
+}
+
+.nav2 {
+	color:olive;
+	font-family:sans-serif;
+	font-style:italic;
+}
+
+.nav3 {
+	color:#2F4F4F;
+	font-style:italic;
+    text-align:left;
+	font-weight: bold;
+	
+}
+	
+a:hover,
+a:active,
+a:focus {
+  color: darkred;
+  text-decoration: none;
 }
 
 
 	
-	
-.centrado {
-	border: 6px solid black;
-	 margin-top: 10px auto;
-  margin-bottom: 100px auto;
-  margin-right: 150px auto;
-  margin-left: 10px ;
+/* estilos para otras etiquetas */
+
+summary {
+	color:	#708090  ;
+	border: 2px solid 	#008080;
+	font-weight: bold;
+	padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family:Courier, monospace;
 }
+
+svg {
+	margin-left: 46%;
+	border:3px solid black;
+	width:100px;
+	height:100px;
+}
+
+
+figure {
+display: block;
+margin-left: 150px;
+}
+
+
+footer {
+	text-align: center;
+	color:SaddleBrown ;
+	white-space: pre; 
+	font-family:"Lucida Sans Unicode";
+}
+   
+li {
+	 color:#2F4F4F;
+	 font-weight:bold;
+	 font-size:large ;
+}
+
+/* estilos para parrafos */
+
+pre {
+	
+	color:MidnightBlue ;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	font-family:Courier, monospace;
+	font-weight:bold;
+}
+
+p.bio  {
+	color:	#2F4F4F ;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family:Courier, monospace;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+
+p.bio2 {
+	margin-left: 30px;
+	color:MidnightBlue ;
+}
+
+ p.listado {
+	margin-left: 30px;
+	color:MidnightBlue ;
+	white-space: pre; 
+	font-family:"Comic Sans MS";
+ }
+ 
+ p.summary {
+	color:#708090  ;
+	margin-left:30px;
+	font-weight:bold;
+	font-family:Courier, monospace;
+}
+
+
+
+/* estilos para la tabla */
+
+
+table
+{
+	width: 50%;
+}
+
+
+table, td, th {
+  border: 2px solid darkred;
+  text-align:center;
+  color: #2F4F4F;
+  margin-left: 30px;
+  padding: 10px;
+  border-collapse: collapse;
+  font-family:Courier, monospace;
+}
+
+tr:hover {background-color:	#FFDEAD;}
+
+
+th {
+  background-color: #FFFACD;
+  color: black;
+}
+
+
+
+   /* estilos para bordes */
 
 .izq {
 	  border: 6px solid orange;
-  margin-top: 10px auto;
-  margin-bottom: 100px auto;
+  margin-top: 40px ;
+  margin-bottom: 10px ;
   margin-right: 10px ;
-  margin-left: 25% ;
+  margin-left: 26% ;
+}
+
+.centrado {
+	border: 6px solid black;
+	 margin-top: 40px ;
+  margin-bottom: 10px ;
+  margin-right: 10px ;
+  margin-left: 10px ;
 }
 
 .der {
 	  border: 6px solid orange;
-  margin-top: 10px auto;
-  margin-bottom: 100px auto;
-  margin-right: 300px auto;
-  margin-left: 60px auto;
+  margin-top: 40px ;
+  margin-bottom: 10px ;
+  margin-right: 30px ;
+  margin-left: 10px;
 }
+
+
+ #corner {
+  border-radius: 25px;
+  border: 3px solid #FFD700 ;
+  background: url(images/1.png);
+  background-repeat: repeat;
+  background-position: left top;
+  padding: 10px; 
+  width: 95%;
+  height: 30px; 
+  }
+
+
