@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT empleados (empleado*) >
+<!ELEMENT empleado ( id ,nombre_completo,seccion,nacimiento,sexo,segundo_idioma,estudios ) >
+<!ELEMENT id ( #PCDATA ) >
+<!ELEMENT nombre_completo ( #PCDATA ) >
+<!ELEMENT seccion ( #PCDATA ) >
+<!ELEMENT nacimiento ( #PCDATA ) >
+<!ELEMENT sexo ( #PCDATA ) >
+<!ELEMENT segundo_idioma ( #PCDATA ) >
+<!ELEMENT estudios ( #PCDATA ) >

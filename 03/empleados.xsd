@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault = "qualified">
+
+	<xs:element name="empleados">
+		<xs:complexType>
+		   <xs:sequence>
+				<xs:element name="empleado" maxOccurs="unbounded">
+					<xs:complexType >
+						<xs:sequence >
+								
+								<xs:element name="id">
+										<xs:simpleType >
+											<xs:restriction base="xs:integer">
+											<xs:maxInclusive value = "50" />
+											<xs:minInclusive value = "1" />
+											</xs:restriction>
+										</xs:simpleType >					
+								</xs:element>
+										
+								<xs:element name="nombre_completo">
+										<xs:simpleType >
+											<xs:restriction base='xs:string'>
+											<xs:maxLength value="50"/>
+											<xs:minLength value="4"/>
+											</xs:restriction>
+										</xs:simpleType >					
+								</xs:element>
+								
+								<xs:element name="seccion">
+										<xs:simpleType >
+											<xs:restriction base="xs:string">
+											<xs:maxLength value="50"/>
+											<xs:minLength value="4"/>
+											</xs:restriction>
+										</xs:simpleType >	
+								</xs:element>
+								
+								<xs:element name="nacimiento" type="xs:date"/>
+								
+								<xs:element name="sexo">
+										<xs:simpleType >
+										<xs:restriction base="xs:string">
+											<xs:enumeration value = "HOMBRE"/>
+											<xs:enumeration value = "MUJER"/>
+											<xs:enumeration value = "hombre"/>
+											<xs:enumeration value = "mujer"/>
+											</xs:restriction>
+										</xs:simpleType >
+								</xs:element>
+										
+									
+								<xs:element name="segundo_idioma">
+								<xs:simpleType >
+											<xs:restriction base='xs:string'>
+											<xs:maxLength value="50"/>
+											<xs:minLength value="4"/>
+											</xs:restriction>
+											</xs:simpleType >
+										</xs:element>	
+											
+								<xs:element name="estudios">
+										<xs:simpleType >
+											<xs:restriction base='xs:string'>
+											<xs:maxLength value="50"/>
+											<xs:minLength value="4"/>
+											</xs:restriction>
+										</xs:simpleType >	
+								</xs:element>
+								
+
+						</xs:sequence >
+					</xs:complexType >
+				</xs:element>
+		</xs:sequence >
+	</xs:complexType >
+</xs:element >
+	</xs:schema >

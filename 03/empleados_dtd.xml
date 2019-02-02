@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE empleados SYSTEM "empleados.dtd">
+<empleados>
+	<empleado>
+		<id>1</id>
+		<nombre_completo>GOIKOLEA AQUILINO, GLORIA</nombre_completo>
+		<seccion>deportes</seccion>
+		<nacimiento>17-03-1985</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>chino</segundo_idioma>
+		<estudios>formación profesional</estudios>
+	</empleado>
+	<empleado>
+		<id>2</id>
+		<nombre_completo>GOAS DARYANANI, DAVID</nombre_completo>
+		<seccion>hogar y decoración</seccion>
+		<nacimiento>30-01-1980</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>inglés</segundo_idioma>
+		<estudios>licenciados</estudios>
+	</empleado>
+	<empleado>
+		<id>3</id>
+		<nombre_completo>BADEA ARNOSO, PEDRO</nombre_completo>
+		<seccion>hogar y decoración</seccion>
+		<nacimiento>22-05-1963</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>italiano</segundo_idioma>
+		<estudios>diplomados</estudios>
+	</empleado>
+	<empleado>
+		<id>4</id>
+		<nombre_completo>NAVEDO VICIEDO, JESUS</nombre_completo>
+		<seccion>cultura y ocio</seccion>
+		<nacimiento>14-05-1972</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>no consta</segundo_idioma>
+		<estudios>formación profesional</estudios>
+	</empleado>
+	<empleado>
+		<id>5</id>
+		<nombre_completo>AYAD SUCO, MAR</nombre_completo>
+		<seccion>bebés y carrocería</seccion>
+		<nacimiento>20-07-1981</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>no consta</segundo_idioma>
+		<estudios>estudios secundarios</estudios>
+	</empleado>
+	<empleado>
+		<id>6</id>
+		<nombre_completo>BRAHIMI LLOPART, OSCAR</nombre_completo>
+		<seccion>turismo y regalos</seccion>
+		<nacimiento>21-04-1960</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>italiano</segundo_idioma>
+		<estudios>diplomados</estudios>
+	</empleado>
+	<empleado>
+		<id>7</id>
+		<nombre_completo>HORTAL ESARTE, FATIMA</nombre_completo>
+		<seccion>parafarmacia</seccion>
+		<nacimiento>09-10-1954</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>italiano</segundo_idioma>
+		<estudios>formación profesional</estudios>
+	</empleado>
+	<empleado>
+		<id>8</id>
+		<nombre_completo>OUCHAN BAEZ, LIDIA</nombre_completo>
+		<seccion>hogar y decoración</seccion>
+		<nacimiento>29-01-1972</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>chino</segundo_idioma>
+		<estudios>estudios secundarios</estudios>
+	</empleado>
+	<empleado>
+		<id>9</id>
+		<nombre_completo>ALZAGA CASASUS, MANUELA</nombre_completo>
+		<seccion>cultura y ocio</seccion>
+		<nacimiento>10-01-1968</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>chino</segundo_idioma>
+		<estudios>diplomados</estudios>
+	</empleado>
+	<empleado>
+		<id>10</id>
+		<nombre_completo>PERPINYA CARRACEDO, MAGDALENA</nombre_completo>
+		<seccion>deportes</seccion>
+		<nacimiento>16-04-1984</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>inglés</segundo_idioma>
+		<estudios>licenciados</estudios>
+	</empleado>
+	<empleado>
+		<id>11</id>
+		<nombre_completo>FREY GALVAN, GABRIEL</nombre_completo>
+		<seccion>hogar y decoración</seccion>
+		<nacimiento>11-06-1977</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>portugués</segundo_idioma>
+		<estudios>diplomados</estudios>
+	</empleado>
+	<empleado>
+		<id>12</id>
+		<nombre_completo>BRUMA DOBOS, PEDRO</nombre_completo>
+		<seccion>deportes</seccion>
+		<nacimiento>18-10-1991</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>inglés</segundo_idioma>
+		<estudios>formación profesional</estudios>
+	</empleado>
+	<empleado>
+		<id>13</id>
+		<nombre_completo>AMARA BROCAL, DANIELA</nombre_completo>
+		<seccion>cultura y ocio</seccion>
+		<nacimiento>12-05-1957</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>italiano</segundo_idioma>
+		<estudios>diplomados</estudios>
+	</empleado>
+	<empleado>
+		<id>14</id>
+		<nombre_completo>NOVAU BARJAU, MONICA</nombre_completo>
+		<seccion>prensa y revistas</seccion>
+		<nacimiento>04-10-1956</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>francés</segundo_idioma>
+		<estudios>formación profesional</estudios>
+	</empleado>
+	<empleado>
+		<id>15</id>
+		<nombre_completo>MORROS MAGALLON, BLANCA</nombre_completo>
+		<seccion>parafarmacia</seccion>
+		<nacimiento>11-09-1995</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>portugués</segundo_idioma>
+		<estudios>licenciados</estudios>
+	</empleado>
+	<empleado>
+		<id>16</id>
+		<nombre_completo>AYOSO MATEU, MANUEL</nombre_completo>
+		<seccion>perfumería y cosmética</seccion>
+		<nacimiento>07-03-1950</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>francés</segundo_idioma>
+		<estudios>licenciados</estudios>
+	</empleado>
+	<empleado>
+		<id>17</id>
+		<nombre_completo>ZUBIRIA SUANZES, JOAN</nombre_completo>
+		<seccion>lencería y baño</seccion>
+		<nacimiento>20-03-1958</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>francés</segundo_idioma>
+		<estudios>estudios secundarios</estudios>
+	</empleado>
+	<empleado>
+		<id>18</id>
+		<nombre_completo>VERGE AGHBALOU, SAMUEL</nombre_completo>
+		<seccion>deportes</seccion>
+		<nacimiento>26-09-1975</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>inglés</segundo_idioma>
+		<estudios>licenciados</estudios>
+	</empleado>
+	<empleado>
+		<id>19</id>
+		<nombre_completo>MARABE SOROA, RAMON</nombre_completo>
+		<seccion>bebés y carrocería</seccion>
+		<nacimiento>02-03-1976</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>no consta</segundo_idioma>
+		<estudios>estudios secundarios</estudios>
+	</empleado>
+	<empleado>
+		<id>20</id>
+		<nombre_completo>MORETON CAZALILLA, MARTA</nombre_completo>
+		<seccion>informática</seccion>
+		<nacimiento>18-12-1993</nacimiento>
+		<sexo>mujer</sexo>
+		<segundo_idioma>chino</segundo_idioma>
+		<estudios>formación profesional</estudios>
+	</empleado>
+	<empleado>
+		<id>21</id>
+		<nombre_completo>DE FRIAS LIZALDE, RAFAEL</nombre_completo>
+		<seccion>electrónica</seccion>
+		<nacimiento>29-04-1967</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>inglés</segundo_idioma>
+		<estudios>diplomados</estudios>
+	</empleado>
+	<empleado>
+		<id>22</id>
+		<nombre_completo>MANJON MANN, IKER</nombre_completo>
+		<seccion>moda y accesorios</seccion>
+		<nacimiento>28-06-1993</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>portugués</segundo_idioma>
+		<estudios>licenciados</estudios>
+	</empleado>
+	<empleado>
+		<id>23</id>
+		<nombre_completo>OTEIZA SOBREVIELA, CONSUELO</nombre_completo>
+		<seccion>bebés y carrocería</seccion>
+		<nacimiento>31-07-1970</nacimiento>
+		<sexo>hombre</sexo>
+		<segundo_idioma>francés</segundo_idioma>
+		<estudios>licenciados</estudios>
+	</empleado>
+</empleados>
