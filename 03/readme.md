@@ -7,11 +7,11 @@ https://excelsignum.com/2015/10/26/conectar-base-de-datos-de-excel-utilizando-he
 
 Comentarios:
 
-- Hemos cambiado la columna "2º idioma" por "segundo_idioma" ya que las etiquetas no pueden comenzar por un dígito.
+- Hemos cambiado la columna "2Âº idioma" por "segundo_idioma" ya que las etiquetas no pueden comenzar por un dÃ­gito.
 
 - Subidos los siguientes documentos para validar conjuntamente:
 
-   empleados_dtd.xml / empleados.dtd
+   empleados_dtd.xml / empleados.dtd ---
    empleados_xsd.xml / empleados.xsd
 
 
@@ -19,7 +19,7 @@ Comentarios:
 
 
 - Las fechas las he cambiado de formato "31/02/2013" a "2013-02-31" porque el validador "date" no reconoce el formato "/". (date - Fechas en forma (AAAA-MM-DD))
-  Una solución hubiera sido validar por partrones, pero pensé que eso no conservaba la esencia de lo que es una fecha. Referencia: https://stackoverflow.com/questions/13409567/xml-schema-change-date-format
+  Una soluciÃ³n hubiera sido validar por partrones, pero pensÃ© que eso no conservaba la esencia de lo que es una fecha. Referencia: https://stackoverflow.com/questions/13409567/xml-schema-change-date-format
 
 
 
