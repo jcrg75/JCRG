@@ -1,0 +1,103 @@
+<aiml version="2.0">
+    
+      <category>
+    <pattern>*</pattern>
+    <template>No he entendido muy bien eso, pruebe de nuevo</template>
+  </category>
+
+<category>
+    <pattern>Quiero saber acerca de *</pattern>
+    <template> 
+        <think><set name="ello"><star/></set></think>
+    Aquí puedes encontrar información útil sobre <formal><star/></formal>:
+        <button>
+            <text>Haz click aquí:</text>
+            <url>https://es.wikipedia.org/wiki/<star/></url>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>Quiero saber acerca de ello</pattern>
+    <template><condition name="ello">
+            <li value="*"><srai>Quiero saber acerca de <get name="ello"></get></srai></li>
+            <li>Quieres saber acerca de qué?</li>
+           
+    </condition></template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <that>Quieres saber acerca de qué</that>
+    <template><srai>Quiero saber acerca de <star/></srai></template>
+</category>
+
+
+
+<category>
+    <pattern>Quiero ver el mapa de *</pattern>
+    <template> 
+        <think><set name="ello"><star/></set></think>
+    Aquí tienes el mapa de <formal><star/></formal>:
+        <button>
+            <text>Haz click aquí:</text>
+            <url>https://www.google.es/maps?q=<star/></url>
+        </button>
+    </template>
+</category>
+
+
+<category>
+    <pattern>Quiero ver el mapa de allí</pattern>
+    <template><condition name="ello">
+            <li value="*"><srai>Quiero ver el mapa de <get name="ello"></get></srai></li>
+            <li>Quieres ver el mapa de dónde?</li>
+               </condition></template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <that>Quieres ver el mapa de dónde</that>
+    <template><srai>Quiero ver el mapa de <star/></srai></template>
+</category>
+
+<category>
+    <pattern>Quiero saber cómo es el tiempo de *</pattern>
+    <template> 
+        <think><set name="ello"><star/></set></think>
+    Puedes consultar el tiempo en <formal><star/></formal>:
+        <button>
+            <text>Haz click aquí:</text>
+            <url>https://www.eltiempo.es/buscar?q=<star/></url>
+        </button>
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>Quiero saber cómo es el tiempo de allí</pattern>
+    <template><condition name="ello">
+            <li value="*"><srai>Quiero saber cómo es el tiempo de <get name="ello"></get></srai></li>
+            <li>Quieres saber el tiempo de dónde?</li>
+               </condition></template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <that>Quieres saber el tiempo de dónde</that>
+    <template><srai>Quiero saber cómo es el tiempo de <star/></srai></template>
+</category>
+
+
+<category>
+    <pattern>Alguna vez has estado en <set>cities</set>#</pattern>
+<template><map name="citiesopinion"><star/></map></template>
+</category>
+
+<category>
+    <pattern>Alguna vez has estado en *</pattern>
+<template>No, nunca he estado en <star/></template>
+</category>
+
+</aiml>
