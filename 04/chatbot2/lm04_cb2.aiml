@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    
+    <category>
+    <pattern>*</pattern>
+    <template>No he entendido muy bien eso, <b>¿puedes intentarlo de nuevo?</b></template>
+  </category>
+
+	<category>
+	    <pattern><set>saludo</set></pattern>
+	    <template><star/>, ¿cómo estás? En esta pequeña charla intentaré resolver las dudas a nivel de principiante que puedas tener sobre <b>ajedrez</b>.¿Quieres que te diga las opciones?
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Checkmate2.jpg/245px-Checkmate2.jpg"/></template>
+    </category>
+
+<category>
+	    <pattern>no</pattern>
+	    <template>En tal caso no podré decirte mucho. Quizá quieras echarle un vistazo a esta <b>web</b>. O podría mostrarte las opciones sobre las que te puedo hablar ¿te parece bien?
+	    <button>
+	        <text>Aquí puedes encontrar muchos amigos que te ayuden a saber un poco más sobre ajedrez</text>
+	        <url>http://www.fbescacs.cat/</url>
+        </button>
+        
+        </template>
+    </category>
+    
+    
+    
+<category>
+	    <pattern><set>respuestapositiva</set></pattern>
+	    <template>Pues puedo hablarte de:
+<ol>
+<li><i>Historia del ajedrez</i></li>
+<li><i>Piezas</i></li>
+<li><i>Apertura</i></li>
+<li><i>Medio juego</i></li>
+<li><i>Final</i></li>
+<li><i>Grandes jugadores</i></li>
+</ol>
+Dime el <b>número de opción</b> sobre el que te gustaría que te comentara algo
+</template>
+    </category>
+
+<category>
+    <pattern>1 ^</pattern>
+    <template><b>Historia del ajedrez</b>. Aunque se dice que se creó en su forma primitiva en el siglo VI, el ajedrez actual data del siglo XV y fue modernizado en sus reglas y juego en Valencia, sobre 1470
+    
+    <button>
+        <text>Mejor se explica aquí:</text>
+        <url>https://es.wikipedia.org/wiki/Ajedrez#Historia_del_ajedrez</url>
+    </button>
+    </template>
+        </category>
+    
+    <category>
+    <pattern>2 ^</pattern>
+    <template><b>Piezas</b>. Las piezas en ajedrez son: rey, dama, álfil, caballo y torre. Los peones no se consideran piezas realmente.
+    
+    <button>
+        <text>Aquí puedes saber más sobre las piezas en el ajedrez:</text>
+        <url>https://www.ichess.es/blog/piezas-de-ajedrez/</url>
+    </button>
+    <img src="https://i.pinimg.com/originals/d7/b0/17/d7b0171c8f3bf78800efd898ca667a1d.jpg"/>
+    </template>
+    </category>
+
+
+      <category>
+    <pattern>3 ^</pattern>
+    <template><b>Apertura</b>. En ajedrez se denomina apertura a la fase inicial del juego, en la que se procede a desarrollar las piezas desde sus posiciones iniciales
+            <button>
+                <text>Video sobre aperturas básicas</text>
+                <url>https://www.youtube.com/watch?v=fmCC6p-4PyA</url>
+            </button>
+    </template>
+    </category>
+
+
+      <category>
+    <pattern>4 ^</pattern>
+    <template><b>Medio Juego</b> El medio juego empieza tras la apertura. En él cada jugador mueve sus piezas para conseguir dar mate al rey contrario o llegar a un final ventajoso.
+            <button>
+                <text>Algunas reglas básica sobre cómo jugar el medio juego</text>
+                <url>http://enciclopedia.us.es/index.php/Medio_juego_en_ajedrez</url>
+            </button>
+    </template>
+    </category>
+
+      <category>
+    <pattern>5 ^</pattern>
+    <template><b>Final</b>. Última fase de la partida, donde más útil resulta el estudio de teoría de ajedrez.
+            <button>
+                <text>Completísimo PDF para saber todo sobre la teoría de finales en ajedrez</text>
+                <url>http://usuaris.tinet.cat/bttt/escacs/los_100_finales_que_hay_que_saber_-_jesus_de_la_villa.pdf</url>
+            </button>
+    </template>
+    </category>
+    
+          <category>
+    <pattern>6 ^</pattern>
+    <template>Estos son algunos de los más grandes jugadores de ajedrez de la historia:
+        <ul>
+            <li>Gary Kasparov</li>
+<li>Bobby Fisher</li>
+<li>Viswanathan Anand</li>
+<li>Adolf Anderssen</li>
+        </ul>
+    Si quieres seguir en video una de sus mejores partidas, simplemente teclea su nombre o el apellido
+    </template>
+    </category>
+    
+    <category>
+    <pattern>^ Fisher</pattern>
+    <template>13 años tenía Fisher cuando jugó esta magistral partida. Disfrútala:
+            <button>
+                <text>Byrne vs Fischer (Nueva York, 1956)</text>
+                <url>https://www.youtube.com/watch?v=NGQ2TJmTnSQ</url>
+            </button>
+            <img src="http://www.ajedrezdeataque.com/04%20Articulos/04%20Fischer/Fot_1.jpg"/>
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ Kasparov</pattern>
+    <template> Campeón del Mundo más joven de la historia en 1985, es el jugador de ajedrez que más tiempo ha retenido la corona de campeón del mundo: 15 años
+            <button>
+                <text>Karpov vs Kasparov (Match Título Mundial, 1985)</text>
+                <url>https://www.youtube.com/watch?v=dAuABzrm0Mo</url>
+            </button>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Kasparov-2.jpg/220px-Kasparov-2.jpg"/>
+    </template>
+    </category>
+    
+        <category>
+    <pattern>^ Anand</pattern>
+    <template> Anand es el primer Campeón del Mundo indio y asiático siendo también es el primer y único campeón del mundo que ha conseguido el título compitiendo bajo tres modalidades distintas
+            <button>
+                <text>Anand vs Karpov (2003)</text>
+                <url>https://www.youtube.com/watch?v=UelBqix0pIQ</url>
+            </button>
+            <img src="http://img.khelnama.com/sites/default/files/styles/content_full_width/public/previewimage/news/2013/Nov/Viswanathan%20Anand%20%282%29.jpg"/>
+    </template>
+    </category>
+    
+           <category>
+    <pattern>^ Anderssen</pattern>
+    <template> Uno de los más destacados maestros del ajedrez romántico del siglo XIX, dejó para la historia dos partidas inolvidables
+            <button>
+                <text>LA SIEMPRE VIVA - Anderssen vs Dufresne (Berlín, 1853)</text>
+                <url>https://www.youtube.com/watch?v=gjBU7T1hHwU</url>
+            </button>
+            <img src="http://www.ajedrezdeataque.com/04%20Articulos/02%20Anderssen/Foto4.jpg"/>
+    </template>
+    </category>
+</aiml>
